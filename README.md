@@ -18,20 +18,28 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 ## 一、我该用哪个？先看这张表
 
-别急着一个个看，**先找到你现在卡在哪一步**：
+别急着一个个看，**先找到你现在卡在哪一步**。
+
+⭐ **主力软件**（日常用得最多，多数人装这五个就够了）：
 
 | 我现在的情况 | 用这个 | 📥 下载 |
 |---|---|---|
-| 想找一本书，不知道去哪儿下 | **🔍 CathayFinder** —— 11 个渠道一起搜 | [Releases 页](https://github.com/zzhjim02/CathayFinder/releases/latest) |
-| 下下来一堆 `pdg` / 压缩包，打不开 | **🧩 CathayPDG** —— 超星读秀压缩包转 PDF | [Releases 页](https://github.com/zzhjim02/CathayPDG/releases/latest) |
-| PDF 打不开、一翻页就崩 | **🩺 CathayRepair** —— 先把坏 PDF 救回来 | [Releases 页](https://github.com/zzhjim02/CathayRepair/releases/latest) |
-| 是扫描图片，不能搜索不能复制 | **🔤 CathayOCR** —— 做 OCR 让它能搜能复制 | [Releases 页](https://github.com/zzhjim02/CathayOCR/releases/latest) |
-| OCR 完了，想让字"印"回 PDF 里 | **📑 CathayRestore** —— 做成双层 PDF | [Releases 页](https://github.com/zzhjim02/CathayRestore/releases/latest) |
-| 想把 PDF 里的字整批抽出来 | **✂️ CathayExtract** —— 文字层抽成 TXT | [Releases 页](https://github.com/zzhjim02/CathayExtract/releases/latest) |
-| 几百本书乱糟糟，想整理归档 | **📚 CathayShelf** —— 建档、命名、繁简转换 | [Releases 页](https://github.com/zzhjim02/CathayShelf/releases/latest) |
-| 书太多了，想一秒搜到某句话 | **🏛️ CathayHub** —— 建索引、全文检索、阅读、摘录 | [仓库页](https://github.com/zzhjim02/CathayHub) |
+| 下下来一堆 `pdg` / 压缩包，打不开 | **⭐ 🧩 CathayPDG** —— 超星读秀压缩包转 PDF | [Releases 页](https://github.com/zzhjim02/CathayPDG/releases/latest) |
+| 是扫描图片，不能搜索不能复制 | **⭐ 🔤 CathayOCR** —— 做 OCR 让它能搜能复制 | [Releases 页](https://github.com/zzhjim02/CathayOCR/releases/latest) |
+| 几百本书乱糟糟，想整理归档 | **⭐ 📚 CathayShelf** —— 建档、命名、繁简转换 | [Releases 页](https://github.com/zzhjim02/CathayShelf/releases/latest) |
+| 想找一本书，不知道去哪儿下 | **⭐ 🔍 CathayFinder** —— 11 个渠道一起搜 | [Releases 页](https://github.com/zzhjim02/CathayFinder/releases/latest) |
+| 书太多了，想一秒搜到某句话 | **⭐ 🏛️ CathayHub** —— 索引、检索、阅读、摘录一体 | [仓库页](https://github.com/zzhjim02/CathayHub) |
 
-> 💡 **实在拿不准就装 CathayHub**：它一个顶四个（索引、检索、阅读、摘录都在里面），日常用得最多。
+🔧 **专项小工具**（碰上特定问题才需要，用得少）：
+
+| 我现在的情况 | 用这个 | 📥 下载 |
+|---|---|---|
+| PDF 打不开、一翻页就崩 | 🩺 CathayRepair —— 先把坏 PDF 救回来 | [Releases 页](https://github.com/zzhjim02/CathayRepair/releases/latest) |
+| OCR 完了，想让字"印"回 PDF 里 | 📑 CathayRestore —— 做成双层 PDF | [Releases 页](https://github.com/zzhjim02/CathayRestore/releases/latest) |
+| 想把 PDF 里的字整批抽出来 | ✂️ CathayExtract —— 文字层抽成 TXT | [Releases 页](https://github.com/zzhjim02/CathayExtract/releases/latest) |
+
+> 💡 **按顺序走一遍最省事**：找书（Finder）→ 转 PDF（PDG）→ 识字（OCR）→ 归档（Shelf）→ 检索阅读（Hub）。
+> 中间哪一步没遇上就跳过，不用全走。
 
 ---
 
@@ -61,7 +69,9 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 > 📥 **所有下载都点「Releases 页面」** —— 那边永远是最新的版本和最新的下载地址
 > （本页面不写死具体链接，免得过时）。
 
-### 🔍 CathayFinder —— 找书
+### ⭐ 主力软件（日常用得最多的五个）
+
+### ⭐ 🔍 CathayFinder —— 找书
 
 **一句话**：在 11 个渠道里同时搜一本书，告诉你它在哪儿、编号多少。
 
@@ -83,7 +93,7 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 ---
 
-### 🧩 CathayPDG —— 解压转换
+### ⭐ 🧩 CathayPDG —— 解压转换
 
 **一句话**：把超星 / 读秀下载下来的 PDG 压缩包，转成能看的 PDF。
 
@@ -99,20 +109,7 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 ---
 
-### 🩺 CathayRepair —— 修复
-
-**一句话**：PDF 打不开、一翻页就崩、缺页 —— 先把它抢救回来。
-
-**特色功能**
-- 修损坏的文件结构，能救回来的先救回来
-- 修完自动复核一遍，确认能打开再交给你
-- **原件不动**，修好的另存为新文件
-
-📥 **[下载 → CathayRepair Releases 页面](https://github.com/zzhjim02/CathayRepair/releases/latest)**
-
----
-
-### 🔤 CathayOCR —— OCR
+### ⭐ 🔤 CathayOCR —— OCR
 
 **一句话**：给扫描件做 OCR，让它变成**能搜索、能复制**的 PDF。
 
@@ -126,6 +123,62 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 > ⚠️ **体积较大**：OCR 引擎本身就很大，个别版本 GitHub 放不下，
 > Releases 页面里会给出网盘地址 —— 以那边写的为准。
+
+---
+
+### ⭐ 📚 CathayShelf —— 著录整理
+
+**一句话**：几百本书乱糟糟？批量建档归位、规范命名、繁简转换。
+
+**特色功能**
+- **批量著录**：按书名 / 作者 / 出版社把书归到规范的目录里
+- **规范命名**：文件名统一成好认的格式
+- **繁简转换**：港台繁体书统一成简体（编码规范化也一起做了）
+- 支持批量，一次处理整个书库
+
+📥 **[下载 → CathayShelf Releases 页面](https://github.com/zzhjim02/CathayShelf/releases/latest)**
+
+---
+
+### ⭐ 🏛️ CathayHub —— 索引 · 检索 · 阅读 · 摘录
+
+**一句话**：书太多了？给整个书库建索引，然后**一秒搜到某段话**，还能直接翻看、随手摘录。
+
+**这是全系列的日常入口** —— 索引、检索、阅读、摘录四件事都在它一个里面。
+
+**特色功能**
+- **索引**：把你所有的书（PDF / TXT）扫成全文索引，几万本也能建
+- **检索**：搜一句话而不是只搜书名，直接命中到"哪一页有这个词"
+- **阅读**：内置阅读器，搜到哪本直接翻开看
+- **摘录**：看到要紧的段落，直接摘出来存好（不用再复制粘贴）
+- 自带 Indexer 与 Viewer 模块，不再需要另开别的工具
+
+📥 **[前往 CathayHub 仓库](https://github.com/zzhjim02/CathayHub)**
+
+> ⚠️ **CathayHub 只公开源代码，不提供编译好的 exe。** 原因有两条：
+> ① 它的全文检索是**调用 FileLocator Pro**（Mythicsoft 的商业软件）做的，
+> 对方的许可**不允许随本项目再分发**；② 完整发行包 250 MB 以上，且要按每个人自己的书库
+> 位置配置，公开发一个"开箱即用不了"的二进制意义不大。
+>
+> - **想自己构建**：源码是完整的（GPL-3.0），照仓库里「从源码构建」一节做即可；
+>   检索以外的一切功能（浏览、阅读、文件名索引、图文对读、摘录本、截图本、学术引用）
+>   **都不依赖** FileLocator Pro，源码拿到手就能跑。
+> - **想要现成的可执行版**：在 CathayHub 仓库开一个 Issue 联系作者，会通过网盘单独提供。
+
+---
+
+### 🔧 专项小工具（碰上特定问题才用，用得少）
+
+### 🩺 CathayRepair —— 修复
+
+**一句话**：PDF 打不开、一翻页就崩、缺页 —— 先把它抢救回来。
+
+**特色功能**
+- 修损坏的文件结构，能救回来的先救回来
+- 修完自动复核一遍，确认能打开再交给你
+- **原件不动**，修好的另存为新文件
+
+📥 **[下载 → CathayRepair Releases 页面](https://github.com/zzhjim02/CathayRepair/releases/latest)**
 
 ---
 
@@ -155,47 +208,6 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 ---
 
-### 📚 CathayShelf —— 著录整理
-
-**一句话**：几百本书乱糟糟？批量建档归位、规范命名、繁简转换。
-
-**特色功能**
-- **批量著录**：按书名 / 作者 / 出版社把书归到规范的目录里
-- **规范命名**：文件名统一成好认的格式
-- **繁简转换**：港台繁体书统一成简体（编码规范化也一起做了）
-- 支持批量，一次处理整个书库
-
-📥 **[下载 → CathayShelf Releases 页面](https://github.com/zzhjim02/CathayShelf/releases/latest)**
-
----
-
-### 🏛️ CathayHub —— 索引 · 检索 · 阅读 · 摘录
-
-**一句话**：书太多了？给整个书库建索引，然后**一秒搜到某段话**，还能直接翻看、随手摘录。
-
-**这是全系列的日常入口** —— 索引、检索、阅读、摘录四件事都在它一个里面。
-
-**特色功能**
-- **索引**：把你所有的书（PDF / TXT）扫成全文索引，几万本也能建
-- **检索**：搜一句话而不是只搜书名，直接命中到"哪一页有这个词"
-- **阅读**：内置阅读器，搜到哪本直接翻开看
-- **摘录**：看到要紧的段落，直接摘出来存好（不用再复制粘贴）
-- 自带 Indexer 与 Viewer 模块，不再需要另开别的工具
-
-📥 **[前往 CathayHub 仓库](https://github.com/zzhjim02/CathayHub)**
-
-> ⚠️ **CathayHub 只公开源代码，不提供编译好的 exe。** 原因有两条：
-> ① 它的全文检索是**调用 FileLocator Pro**（Mythicsoft 的商业软件）做的，
-> 对方的许可**不允许随本项目再分发**；② 完整发行包 250 MB 以上，且要按每个人自己的书库
-> 位置配置，公开发一个"开箱即用不了"的二进制意义不大。
->
-> - **想自己构建**：源码是完整的（GPL-3.0），照仓库里「从源码构建」一节做即可；
->   检索以外的一切功能（浏览、阅读、文件名索引、图文对读、摘录本、截图本、学术引用）
->   **都不依赖** FileLocator Pro，源码拿到手就能跑。
-> - **想要现成的可执行版**：在 CathayHub 仓库开一个 Issue 联系作者，会通过网盘单独提供。
-
----
-
 ## 四、已停更的项目（功能已并入后面的工具）
 
 这些**代码都还在、也还能跑**，只是不再更新了 —— 它们的功能已经被上面某个新工具收进去。
@@ -218,7 +230,7 @@ Cathay 系列**每个软件都有自己的 Releases 页面**，去那边下就�
 
 | 情况 | 涉及软件 | 说明 |
 |---|---|---|
-| **Releases 页面直接下 exe** | CathayPDG、CathayRepair、CathayExtract、CathayShelf、CathayFinder（仅程序） | 几十 MB，点开就能下 |
+| **Releases 页面直接下 exe** | ⭐ CathayPDG、⭐ CathayShelf、⭐ CathayFinder（仅程序）、CathayRepair、CathayExtract | 几十 MB，点开就能下 |
 | **Releases 页面里给了网盘地址** | **CathayOCR**（引擎体积大）、**CathayFinder**（27 GB 数据库）、CathayRestore 等 | 超过 GitHub 单文件 2 GB 上限，页面里会写明网盘链接 —— **以那边当时写的为准** |
 | **只有源码，没有编译版** | **CathayHub**（许可原因）、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
 
@@ -241,7 +253,8 @@ Cathay 系列**每个软件都有自己的 Releases 页面**，去那边下就�
 完全不用。**哪一步卡住了就只装那一个**，它们互不依赖。
 
 **我是新手，先装哪个？**
-想找书 → CathayFinder；书已经在手里、想整理和检索 → CathayHub。
+看标了 ⭐ 的那五个就行：要找书 → CathayFinder；下下来打不开 → CathayPDG；
+是扫描图片没法搜 → CathayOCR；书太多要归档 → CathayShelf；想一秒搜到某段话 → CathayHub。
 
 **下载链接失效了怎么办？**
 各软件的 Releases 页面会更新；实在找不到就在对应仓库提 Issue 说一声。
