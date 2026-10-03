@@ -20,16 +20,16 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 别急着一个个看，**先找到你现在卡在哪一步**：
 
-| 我现在的情况 | 用这个 |
-|---|---|
-| 想找一本书，不知道去哪儿下 | **[🔍 CathayFinder](#-cathayfinder--找书)** —— 11 个渠道一起搜 |
-| 下下来一堆 `pdg` / 压缩包，打不开 | **[🧩 CathayPDG](#-cathaypdg--解压转换)** —— 超星读秀压缩包转 PDF |
-| PDF 打不开、一翻页就崩 | **[🩺 CathayRepair](#-cathayrepair--修复)** —— 先把坏 PDF 救回来 |
-| 是扫描图片，不能搜索不能复制 | **[🔤 CathayOCR](#-cathayocr--ocr)** —— 做 OCR 让它能搜能复制 |
-| OCR 完了，想让字"印"回 PDF 里 | **[📑 CathayRestore](#-cathayrestore--回写双层)** —— 做成双层 PDF |
-| 想把 PDF 里的字整批抽出来 | **[✂️ CathayExtract](#-cathayextract--摘录)** —— 文字层抽成 TXT |
-| 几百本书乱糟糟，想整理归档 | **[📚 CathayShelf](#-cathayshelf--著录整理)** —— 建档、命名、繁简转换 |
-| 书太多了，想一秒搜到某句话 | **[🏛️ CathayHub](#-cathayhub--索引--检索--阅读--摘录)** —— 建索引、全文检索、阅读、摘录 |
+| 我现在的情况 | 用这个 | 📥 下载 |
+|---|---|---|
+| 想找一本书，不知道去哪儿下 | **🔍 CathayFinder** —— 11 个渠道一起搜 | [Releases 页](https://github.com/zzhjim02/CathayFinder/releases/latest) |
+| 下下来一堆 `pdg` / 压缩包，打不开 | **🧩 CathayPDG** —— 超星读秀压缩包转 PDF | [Releases 页](https://github.com/zzhjim02/CathayPDG/releases/latest) |
+| PDF 打不开、一翻页就崩 | **🩺 CathayRepair** —— 先把坏 PDF 救回来 | [Releases 页](https://github.com/zzhjim02/CathayRepair/releases/latest) |
+| 是扫描图片，不能搜索不能复制 | **🔤 CathayOCR** —— 做 OCR 让它能搜能复制 | [Releases 页](https://github.com/zzhjim02/CathayOCR/releases/latest) |
+| OCR 完了，想让字"印"回 PDF 里 | **📑 CathayRestore** —— 做成双层 PDF | [Releases 页](https://github.com/zzhjim02/CathayRestore/releases/latest) |
+| 想把 PDF 里的字整批抽出来 | **✂️ CathayExtract** —— 文字层抽成 TXT | [Releases 页](https://github.com/zzhjim02/CathayExtract/releases/latest) |
+| 几百本书乱糟糟，想整理归档 | **📚 CathayShelf** —— 建档、命名、繁简转换 | [Releases 页](https://github.com/zzhjim02/CathayShelf/releases/latest) |
+| 书太多了，想一秒搜到某句话 | **🏛️ CathayHub** —— 建索引、全文检索、阅读、摘录 | [仓库页](https://github.com/zzhjim02/CathayHub) |
 
 > 💡 **实在拿不准就装 CathayHub**：它一个顶四个（索引、检索、阅读、摘录都在里面），日常用得最多。
 
@@ -203,12 +203,12 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 | 停更项目 | 状态 | 现在该用什么 |
 |---|---|---|
-| [CathaySimplify](https://github.com/zzhjim02/CathaySimplify) | 已停更 —— 繁简转换 / 编码规范化 | **→ [CathayShelf](#-cathayshelf--著录整理)**（功能已并入） |
-| [CathayIndex](https://github.com/zzhjim02/CathayIndex) | 已停更 —— 本地文件库索引 | **→ [CathayFinder](#-cathayfinder--找书)** 的「本地文件库索引」页签 ｜ **→ CathayHub** Indexer |
-| [CathayViewer](https://github.com/zzhjim02/CathayViewer) | 已停更 —— 书库浏览 | **→ [CathayHub](#-cathayhub--索引--检索--阅读--摘录)** Viewer |
-| [CathayReader](https://github.com/zzhjim02/CathayReader) | 已停更 —— 阅读 | **→ [CathayHub](#-cathayhub--索引--检索--阅读--摘录)** Viewer |
-| [PDF-OCR-Exporter](https://github.com/zzhjim02/PDF-OCR-Exporter) | 已停更 —— PDF 文字提取（**无发行版**，仅源码） | **→ [CathayExtract](#-cathayextract--摘录)** |
-| [PDF-OCR-Exporter-Lite](https://github.com/zzhjim02/PDF-OCR-Exporter-Lite) | 已停更 —— 上者的精简版（**无发行版**，仅源码） | **→ [CathayExtract](#-cathayextract--摘录)** |
+| [CathaySimplify](https://github.com/zzhjim02/CathaySimplify) | 已停更 —— 繁简转换 / 编码规范化 | **→ [CathayShelf](https://github.com/zzhjim02/CathayShelf)**（功能已并入） |
+| [CathayIndex](https://github.com/zzhjim02/CathayIndex) | 已停更 —— 本地文件库索引 | **→ [CathayFinder](https://github.com/zzhjim02/CathayFinder)** 的「本地文件库索引」页签 ｜ **→ [CathayHub](https://github.com/zzhjim02/CathayHub)** Indexer |
+| [CathayViewer](https://github.com/zzhjim02/CathayViewer) | 已停更 —— 书库浏览 | **→ [CathayHub](https://github.com/zzhjim02/CathayHub)** Viewer |
+| [CathayReader](https://github.com/zzhjim02/CathayReader) | 已停更 —— 阅读 | **→ [CathayHub](https://github.com/zzhjim02/CathayHub)** Viewer |
+| [PDF-OCR-Exporter](https://github.com/zzhjim02/PDF-OCR-Exporter) | 已停更 —— PDF 文字提取（**无发行版**，仅源码） | **→ [CathayExtract](https://github.com/zzhjim02/CathayExtract)** |
+| [PDF-OCR-Exporter-Lite](https://github.com/zzhjim02/PDF-OCR-Exporter-Lite) | 已停更 —— 上者的精简版（**无发行版**，仅源码） | **→ [CathayExtract](https://github.com/zzhjim02/CathayExtract)** |
 
 ---
 
