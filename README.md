@@ -22,45 +22,54 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 ⭐ **主力软件**（日常用得最多，多数人装这五个就够了）：
 
-| 我现在的情况 | 用这个 | 📥 下载 |
-|---|---|---|
-| 下下来一堆 `pdg` / 压缩包，打不开 | **⭐ 🧩 CathayPDG** —— 超星读秀压缩包转 PDF | [Releases 页](https://github.com/zzhjim02/CathayPDG/releases/latest) |
-| 是扫描图片，不能搜索不能复制 | **⭐ 🔤 CathayOCR** —— 做 OCR 让它能搜能复制 | [Releases 页](https://github.com/zzhjim02/CathayOCR/releases/latest) |
-| 几百本书乱糟糟，想整理归档 | **⭐ 📚 CathayShelf** —— 建档、命名、繁简转换 | [Releases 页](https://github.com/zzhjim02/CathayShelf/releases/latest) |
-| 想找一本书，不知道去哪儿下 | **⭐ 🔍 CathayFinder** —— 11 个渠道一起搜 | [Releases 页](https://github.com/zzhjim02/CathayFinder/releases/latest) |
-| 书太多了，想一秒搜到某句话 | **⭐ 🏛️ CathayHub** —— 索引、检索、阅读、摘录一体 | [仓库页](https://github.com/zzhjim02/CathayHub) |
+这五个**按下面的顺序走**（每一步都是下一步的前提）：
+
+| 顺序 | 我现在的情况 | 用这个 | 📥 下载 |
+|:--:|---|---|---|
+| ① | 想找一本书，不知道去哪儿下 | **⭐ 🔍 CathayFinder** —— 11 个渠道一起搜，告诉你书在哪 | [Releases 页](https://github.com/zzhjim02/CathayFinder/releases/latest) |
+| ② | 下下来是压缩包 / 一堆 `.pdg`，打不开 | **⭐ 🧩 CathayPDG** —— 超星读秀的压缩包转成能翻的 PDF | [Releases 页](https://github.com/zzhjim02/CathayPDG/releases/latest) |
+| ③ | 翻开是一页页**影印图片**，字选不中、复制不了、也搜不到 | **⭐ 🔤 CathayOCR** —— 让电脑把图片里的字认出来（这就是 OCR），书上就**能搜、能复制**了 | [Releases 页](https://github.com/zzhjim02/CathayOCR/releases/latest) |
+| ④ | 书攒了几百本，文件名乱、摆放乱 | **⭐ 📚 CathayShelf** —— 批量建档归位、规范命名、繁简转换 | [Releases 页](https://github.com/zzhjim02/CathayShelf/releases/latest) |
+| ⑤ | 书太多了，想一秒搜到某句话（**前提：这些书已经认过字，能复制文字**） | **⭐ 🏛️ CathayHub** —— 索引、检索、阅读、摘录一体 | [仓库页](https://github.com/zzhjim02/CathayHub) |
 
 🔧 **专项小工具**（碰上特定问题才需要，用得少）：
 
 | 我现在的情况 | 用这个 | 📥 下载 |
 |---|---|---|
 | PDF 打不开、一翻页就崩 | 🩺 CathayRepair —— 先把坏 PDF 救回来 | [Releases 页](https://github.com/zzhjim02/CathayRepair/releases/latest) |
-| OCR 完了，想让字"印"回 PDF 里 | 📑 CathayRestore —— 做成双层 PDF | [Releases 页](https://github.com/zzhjim02/CathayRestore/releases/latest) |
-| 想把 PDF 里的字整批抽出来 | ✂️ CathayExtract —— 文字层抽成 TXT | [Releases 页](https://github.com/zzhjim02/CathayExtract/releases/latest) |
+| 认完字，想把字"印"回 PDF 里（做双层） | 📑 CathayRestore —— 图还是原图，底下多一层可搜的字 | [Releases 页](https://github.com/zzhjim02/CathayRestore/releases/latest) |
+| 想把 PDF 里的字**整批导出**成 TXT | 📤 CathayExtract —— 把文字层导出成文本文件 | [Releases 页](https://github.com/zzhjim02/CathayExtract/releases/latest) |
 
-> 💡 **按顺序走一遍最省事**：找书（Finder）→ 转 PDF（PDG）→ 识字（OCR）→ 归档（Shelf）→ 检索阅读（Hub）。
-> 中间哪一步没遇上就跳过，不用全走。
+> 💡 **按顺序走一遍最省事**：① 找书 → ② 转 PDF → ③ 认字 → ④ 归档 → ⑤ 检索阅读。
+> 中间哪一步没遇上就跳过。
+> ⚠️ **第 ⑤ 步搜的是"字"不是"图"**：没做过第 ③ 步的影印本，在 CathayHub 里是搜不到正文的。
 
 ---
 
 ## 二、整套流程长什么样
 
 ```
-  找书            转成 PDF           识字            回写
- ┌──────┐        ┌──────┐        ┌──────┐        ┌──────┐
- │ ⑥ 找书│ ─────▶│ ① 转换│ ─────▶│ ② OCR │ ─────▶│③ 双层 │
- └──────┘        └──────┘        └──────┘        └──────┘
-                    ▲                                 │
-                    │                                 ▼
-                 ⓪ 修复                        ┌──────────────┐
-              （PDF 坏了先救）                  │ ④ 摘录 / ⑤ 著录 │
-                                              └──────────────┘
-                                                      │
-                                                      ▼
-                              ⑦ Hub：索引 → 检索 → 阅读 → 摘录
+   ① 找书          ② 转成 PDF        ③ 认字            ④ 著录            ⑤ 索引检索
+ ┌────────┐      ┌────────┐      ┌────────┐      ┌────────┐      ┌────────┐
+ │ Finder │ ───▶ │  PDG   │ ───▶ │  OCR   │ ───▶ │ Shelf  │ ───▶ │  Hub   │
+ │ 去哪找书│      │ 压缩包 │      │ 影印本 │      │ 书多了 │      │ 搜一句话│
+ │        │      │ 变 PDF │      │ 认出字 │      │ 要归档 │      │ 直接翻开│
+ └────────┘      └────────┘      └────────┘      └────────┘      └────────┘
+                    ▲                                                  │
+                    │                                                  ▼
+                 ⓪ 修复                                        阅读 · 摘录
+            （PDF 打不开先救一下）
 ```
 
-**每一步都能单独用**，不用从头走到尾。你的书要是已经能搜了，直接从 ⑤ 或 ⑦ 开始就行。
+**旁路小工具**（用得少，需要时才走）：
+
+```
+ ③ 认完字 ──▶ 想让字"印"回 PDF ──▶ CathayRestore（做双层 PDF）
+           ──▶ 想把字整批存出来 ──▶ CathayExtract（导出 TXT）
+```
+
+**每一步都能单独用**，不用从头走到尾。你的书要是**已经能复制文字**了，直接从 ④ 或 ⑤ 开始就行；
+**如果翻开是图片、复制不出字，那就必须先走第 ③ 步**。
 
 ---
 
@@ -109,9 +118,13 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 ---
 
-### ⭐ 🔤 CathayOCR —— OCR
+### ⭐ 🔤 CathayOCR —— 认字（OCR）
 
-**一句话**：给扫描件做 OCR，让它变成**能搜索、能复制**的 PDF。
+**一句话**：影印本 / 扫描件翻开是一页页图片，**字选不中、复制不了、也搜不到** ——
+它让电脑把图片里的字认出来，之后这本书就**能搜、能复制、能引用**了。
+
+> 🗣️ **说人话**：OCR 就是"让电脑看图认字"。没做这一步的书，只是一堆图片，
+> 你在里面搜一个词是搜不到的（后面 CathayHub 的全文检索也依赖这一步）。
 
 **特色功能**
 - **批量处理**：扔进去一整个文件夹，然后去泡茶
@@ -144,7 +157,11 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 **一句话**：书太多了？给整个书库建索引，然后**一秒搜到某段话**，还能直接翻看、随手摘录。
 
-**这是全系列的日常入口** —— 索引、检索、阅读、摘录四件事都在它一个里面。
+**这是走完前四步之后的日常入口** —— 索引、检索、阅读、摘录四件事都在它一个里面。
+
+> ⚠️ **用它的前提：书里得有"字"**。它搜的是文字，不是图片。
+> 那些没经过 CathayOCR 认字的影印本，只能按文件名搜到，**正文里搜不到东西**。
+> 所以顺序是：**先 CathayOCR → 再 CathayHub**。
 
 **特色功能**
 - **索引**：把你所有的书（PDF / TXT）扫成全文索引，几万本也能建
@@ -195,14 +212,19 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 
 ---
 
-### ✂️ CathayExtract —— 摘录
+### 📤 CathayExtract —— 文字导出
 
-**一句话**：已经是双层 PDF 的，直接把里面的文字抽成 TXT，做笔记、做语料都方便。
+**一句话**：书里已经有文字层了（OCR 过 / 本身是电子排版的），**把文字整批导出成 TXT 文件** ——
+做笔记、做语料、做统计都方便。
+
+> 📌 **它是"导出"，不是"摘录"**：摘录（看到要紧段落随手存下来）是 CathayHub 里的功能；
+> 这个工具干的是**批量把整本书的文字倒出来**。
 
 **特色功能**
-- **直接抽文字层**，不用再跑一遍 OCR（快得多，也更准）
-- **保持原来的目录结构**，几百本书抽完还是整整齐齐
-- 支持批量
+- **直接取现成的文字层**，不用再跑一遍 OCR（快得多，也更准）
+- **保持原来的目录结构**，几百本书导出完还是整整齐齐
+- 支持批量，一次导整个书库
+- 导出的 TXT 可直接拿去做词频统计、语料分析
 
 📥 **[下载 → CathayExtract Releases 页面](https://github.com/zzhjim02/CathayExtract/releases/latest)**
 
@@ -219,7 +241,7 @@ Cathay 是一套给人文社科研究者（历史、文学、哲学、社会学�
 | [CathayIndex](https://github.com/zzhjim02/CathayIndex) | 已停更 —— 本地文件库索引 | **→ [CathayFinder](https://github.com/zzhjim02/CathayFinder)** 的「本地文件库索引」页签 ｜ **→ [CathayHub](https://github.com/zzhjim02/CathayHub)** Indexer |
 | [CathayViewer](https://github.com/zzhjim02/CathayViewer) | 已停更 —— 书库浏览 | **→ [CathayHub](https://github.com/zzhjim02/CathayHub)** Viewer |
 | [CathayReader](https://github.com/zzhjim02/CathayReader) | 已停更 —— 阅读 | **→ [CathayHub](https://github.com/zzhjim02/CathayHub)** Viewer |
-| [PDF-OCR-Exporter](https://github.com/zzhjim02/PDF-OCR-Exporter) | 已停更 —— PDF 文字提取（**无发行版**，仅源码） | **→ [CathayExtract](https://github.com/zzhjim02/CathayExtract)** |
+| [PDF-OCR-Exporter](https://github.com/zzhjim02/PDF-OCR-Exporter) | 已停更 —— PDF 文字导出（**无发行版**，仅源码） | **→ [CathayExtract](https://github.com/zzhjim02/CathayExtract)** |
 | [PDF-OCR-Exporter-Lite](https://github.com/zzhjim02/PDF-OCR-Exporter-Lite) | 已停更 —— 上者的精简版（**无发行版**，仅源码） | **→ [CathayExtract](https://github.com/zzhjim02/CathayExtract)** |
 
 ---
@@ -253,8 +275,22 @@ Cathay 系列**每个软件都有自己的 Releases 页面**，去那边下就�
 完全不用。**哪一步卡住了就只装那一个**，它们互不依赖。
 
 **我是新手，先装哪个？**
-看标了 ⭐ 的那五个就行：要找书 → CathayFinder；下下来打不开 → CathayPDG；
-是扫描图片没法搜 → CathayOCR；书太多要归档 → CathayShelf；想一秒搜到某段话 → CathayHub。
+按你书现在的状态往下看，**卡在哪一步就装哪个**：
+
+| 你的书现在什么样 | 装这个 |
+|---|---|
+| 还没有书，不知道去哪儿找 | ⭐ CathayFinder |
+| 有书，但是压缩包 / `.pdg` 打不开 | ⭐ CathayPDG |
+| 能打开，但翻开是影印图片，**字复制不出来** | ⭐ CathayOCR（**这一步不补上，后面几步都使不上**） |
+| 能复制文字了，书太多要整理归档 | ⭐ CathayShelf |
+| 都整理好了，想一秒搜到某句话 | ⭐ CathayHub |
+
+**怎么判断我的书要不要 OCR？**
+随便翻开一页，用鼠标拖一下正文里的字：
+
+- **能选中、能复制** → 这本书有文字层，**不用 OCR**，直接去 CathayShelf / CathayHub。
+- **选不中，整页就像一张图片** → 没有文字层，**必须先跑 CathayOCR**，
+  否则既搜不到正文，CathayHub 里也搜不出来。
 
 **下载链接失效了怎么办？**
 各软件的 Releases 页面会更新；实在找不到就在对应仓库提 Issue 说一声。
