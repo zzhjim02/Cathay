@@ -44,6 +44,7 @@
 | PDF 打不开、一翻页就崩 | 🩺 CathayRepair —— 先把坏 PDF 救回来 | [📥 Releases](https://github.com/zzhjim02/CathayRepair/releases/latest) |
 | 想把字「印」回 PDF（做成双层） | 📑 CathayRestore —— 图还是原图，底下多一层字 | [📥 Releases](https://github.com/zzhjim02/CathayRestore/releases/latest) |
 | 想把 PDF 里的字**整批导出**成 TXT | 📤 CathayExtract —— 文字层导出文本文件 | [📥 Releases](https://github.com/zzhjim02/CathayExtract/releases/latest) |
+| 一堆 PDF 摆在面前，想知道各自是**横排还是竖排** | 🧭 CathayDir —— 每 10 页抽一页批量判，能存 CSV / 分三个柜 | [📦 仓库页](https://github.com/zzhjim02/CathayDir) |
 
 ---
 
@@ -314,7 +315,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 |---|---|---|
 | **Releases 页面直接下 exe** | ⭐ CathayPDG、⭐ CathayShelf、⭐ CathayFinder（仅程序）、CathayRepair、CathayExtract | 几十 MB，点开就能下 |
 | **Releases 页面里给了网盘地址** | **CathayOCR**（引擎体积大）、**CathayFinder**（27 GB 数据库）、CathayRestore 等 | 超过 GitHub 单文件 2 GB 上限，页面里会写明网盘链接 —— **以那边当时写的为准** |
-| **只有源码，没有编译版** | **CathayHub**（许可原因）、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
+| **只有源码，没有编译版** | **CathayHub**（许可原因）、**CathayDir**、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
 
 </details>
 
