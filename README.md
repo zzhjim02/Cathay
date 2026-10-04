@@ -205,7 +205,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 ## 🔧 专项小工具
 
 <details>
-<summary><b>展开看三个专项小工具（碰上特定问题才用，用得少）</b></summary>
+<summary><b>展开看四个专项小工具（碰上特定问题才用，用得少）</b></summary>
 
 ### 🩺 CathayRepair —— 修复
 
@@ -240,6 +240,17 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 - 导出的 TXT 可直接拿去做词频统计、语料分析
 
 [![Releases](https://img.shields.io/badge/CathayExtract-v1.2.3-brightgreen)](https://github.com/zzhjim02/CathayExtract/releases/latest)
+
+### 🧭 CathayDir —— 判断横排 / 竖排
+
+> 一批 PDF 摆在那儿，先问一句：**它们到底是横排还是竖排？**
+> 古籍多竖排、现代书多横排，分流之后再 OCR，效果差很多。
+
+- 投影法批量判定，**每 10 页抽一页**（可调），几百页的书几秒判完
+- 结果列表能**点任意一列表头排序**（文件名按自然序，第 2 册排在第 10 册前面）
+- 可存 CSV 留档，也可直接按方向复制成「横排 / 竖排 / 未知」三个文件夹
+
+[![CathayDir](https://img.shields.io/badge/CathayDir-v0.1.1-brightgreen)](https://github.com/zzhjim02/CathayDir)
 
 </details>
 
