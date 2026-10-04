@@ -44,7 +44,6 @@
 | PDF 打不开、一翻页就崩 | 🩺 CathayRepair —— 先把坏 PDF 救回来 | [📥 Releases](https://github.com/zzhjim02/CathayRepair/releases/latest) |
 | 想把字「印」回 PDF（做成双层） | 📑 CathayRestore —— 图还是原图，底下多一层字 | [📥 Releases](https://github.com/zzhjim02/CathayRestore/releases/latest) |
 | 想把 PDF 里的字**整批导出**成 TXT | 📤 CathayExtract —— 文字层导出文本文件 | [📥 Releases](https://github.com/zzhjim02/CathayExtract/releases/latest) |
-| 一堆 PDF 摆在面前，想知道各自是**横排还是竖排** | 🧭 CathayDir —— 每 10 页抽一页批量判，能存 CSV / 分三个柜 | [📦 仓库页](https://github.com/zzhjim02/CathayDir) |
 
 ---
 
@@ -153,7 +152,7 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayShelf-v0.4.6-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayShelf/releases/latest)
+[![Releases](https://img.shields.io/badge/CathayShelf-v0.4.7-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayShelf/releases/latest)
 
 </div>
 
@@ -206,7 +205,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 ## 🔧 专项小工具
 
 <details>
-<summary><b>展开看四个专项小工具（碰上特定问题才用，用得少）</b></summary>
+<summary><b>展开看三个专项小工具（碰上特定问题才用，用得少）</b></summary>
 
 ### 🩺 CathayRepair —— 修复
 
@@ -241,18 +240,6 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 - 导出的 TXT 可直接拿去做词频统计、语料分析
 
 [![Releases](https://img.shields.io/badge/CathayExtract-v1.2.3-brightgreen)](https://github.com/zzhjim02/CathayExtract/releases/latest)
-
-### 🧭 CathayDir —— 判断横排 / 竖排
-
-> 一批 PDF 摆在那儿，先问一句：**它们到底是横排还是竖排？**
-> 古籍多竖排、现代书多横排，分流之后再 OCR，效果差很多。
-
-- 投影法批量判定，**每 10 页抽一页**（可调），几百页的书几秒判完
-- 结果列表能**点任意一列表头排序**（文件名按自然序，第 2 册排在第 10 册前面）
-- 可存 CSV 留档，也可直接按方向复制成「横排 / 竖排 / 未知」三个文件夹
-
-[![CathayDir](https://img.shields.io/badge/CathayDir-v0.1.1-brightgreen)](https://github.com/zzhjim02/CathayDir)
-
 
 </details>
 
@@ -316,7 +303,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 |---|---|---|
 | **Releases 页面直接下 exe** | ⭐ CathayPDG、⭐ CathayShelf、⭐ CathayFinder（仅程序）、CathayRepair、CathayExtract | 几十 MB，点开就能下 |
 | **Releases 页面里给了网盘地址** | **CathayOCR**（引擎体积大）、**CathayFinder**（27 GB 数据库）、CathayRestore 等 | 超过 GitHub 单文件 2 GB 上限，页面里会写明网盘链接 —— **以那边当时写的为准** |
-| **只有源码，没有编译版** | **CathayHub**（许可原因）、**CathayDir**、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
+| **只有源码，没有编译版** | **CathayHub**（许可原因）、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
 
 </details>
 
