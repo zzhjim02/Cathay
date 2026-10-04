@@ -105,7 +105,7 @@
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayPDG-v0.1.6-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayPDG/releases/latest)
+[![Releases](https://img.shields.io/badge/CathayPDG-v0.1.8-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayPDG/releases/latest)
 
 </div>
 
