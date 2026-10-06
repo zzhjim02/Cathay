@@ -79,7 +79,7 @@
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayFinder-v1.1.0-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayFinder/releases/latest)
+[![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayFinder?color=brightgreen&style=for-the-badge)](https://github.com/zzhjim02/CathayFinder/releases/latest)
 
 </div>
 
@@ -106,7 +106,7 @@
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayPDG-v0.2.0-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayPDG/releases/latest)
+[![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayPDG?color=brightgreen&style=for-the-badge)](https://github.com/zzhjim02/CathayPDG/releases/latest)
 
 </div>
 
@@ -125,7 +125,7 @@
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayOCR-v1.2.4-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayOCR/releases/latest)
+[![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayOCR?color=brightgreen&style=for-the-badge)](https://github.com/zzhjim02/CathayOCR/releases/latest)
 
 </div>
 
@@ -153,7 +153,7 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayShelf-v0.4.8-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayShelf/releases/latest)
+[![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayShelf?color=brightgreen&style=for-the-badge)](https://github.com/zzhjim02/CathayShelf/releases/latest)
 
 </div>
 
@@ -216,7 +216,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 - 修完自动复核一遍，确认能打开再交给你
 - **原件不动**，修好的另存为新文件
 
-[![Releases](https://img.shields.io/badge/CathayRepair-v1.0.0-brightgreen)](https://github.com/zzhjim02/CathayRepair/releases/latest)
+[![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayRepair?color=brightgreen)](https://github.com/zzhjim02/CathayRepair/releases/latest)
 
 ### 📑 CathayRestore —— 回写双层
 
@@ -226,7 +226,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 - 原图一像素不动，只是多了一层字
 - 支持批量，做完整文件夹
 
-[![Releases](https://img.shields.io/badge/CathayRestore-v1.0.0-brightgreen)](https://github.com/zzhjim02/CathayRestore/releases/latest)
+[![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayRestore?color=brightgreen)](https://github.com/zzhjim02/CathayRestore/releases/latest)
 
 ### 📤 CathayExtract —— 文字导出
 
@@ -240,7 +240,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 - **保持原来的目录结构**，几百本书导出完还是整整齐齐
 - 导出的 TXT 可直接拿去做词频统计、语料分析
 
-[![Releases](https://img.shields.io/badge/CathayExtract-v1.2.3-brightgreen)](https://github.com/zzhjim02/CathayExtract/releases/latest)
+[![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayExtract?color=brightgreen)](https://github.com/zzhjim02/CathayExtract/releases/latest)
 
 ### 🧭 CathayDir —— 判断横排 / 竖排
 
@@ -251,7 +251,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 - 结果列表能**点任意一列表头排序**（文件名按自然序，第 2 册排在第 10 册前面）
 - 可存 CSV 留档，也可直接按方向复制成「横排 / 竖排 / 未知」三个文件夹
 
-[![CathayDir](https://img.shields.io/badge/CathayDir-v0.1.1-brightgreen)](https://github.com/zzhjim02/CathayDir)
+[![CathayDir](https://img.shields.io/github/v/release/zzhjim02/CathayDir?color=brightgreen)](https://github.com/zzhjim02/CathayDir)
 
 
 </details>
