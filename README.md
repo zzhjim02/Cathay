@@ -106,7 +106,7 @@
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayPDG-v0.1.9-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayPDG/releases/latest)
+[![Releases](https://img.shields.io/badge/CathayPDG-v0.2.0-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayPDG/releases/latest)
 
 </div>
 
@@ -153,7 +153,7 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 
 <div align="center">
 
-[![Releases](https://img.shields.io/badge/CathayShelf-v0.4.7-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayShelf/releases/latest)
+[![Releases](https://img.shields.io/badge/CathayShelf-v0.4.8-brightgreen?style=for-the-badge)](https://github.com/zzhjim02/CathayShelf/releases/latest)
 
 </div>
 
