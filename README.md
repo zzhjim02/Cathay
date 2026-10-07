@@ -34,7 +34,7 @@
 | ① | 想找一本书，不知道去哪儿下 | **🔍 CathayFinder** —— 11 个渠道一起搜 | [📥 Releases](https://github.com/zzhjim02/CathayFinder/releases/latest) |
 | ② | 下下来是压缩包 / 一堆 `.pdg`，打不开 | **🧩 CathayPDG** —— 超星读秀压缩包转 PDF | [📥 Releases](https://github.com/zzhjim02/CathayPDG/releases/latest) · [📦 网盘 v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) |
 | ③ | 翻开是一页页**影印图片**，字选不中、复制不出来 | **🔤 CathayOCR** —— 让电脑看图认字 | [📥 Releases](https://github.com/zzhjim02/CathayOCR/releases/latest) |
-| ④ | 书攒了几百本，文件名乱、摆放乱 | **📚 CathayShelf** —— 批量建档归位、规范命名 | [📥 Releases](https://github.com/zzhjim02/CathayShelf/releases/latest) · 📦 网盘 v0.5.2（链接稍后补） |
+| ④ | 书攒了几百本，文件名乱、摆放乱 | **📚 CathayShelf** —— 批量建档归位、规范命名 | [📥 Releases](https://github.com/zzhjim02/CathayShelf/releases/latest) · [📦 网盘 v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) |
 | ⑤ | 书太多了，想一秒搜到某句话 | **🏛️ CathayHub** —— 索引 · 检索 · 阅读 · 摘录 | [📦 仓库页](https://github.com/zzhjim02/CathayHub) |
 
 > 🔧 **专项小工具**（碰上特定问题才用，用得少）
@@ -73,7 +73,7 @@
 ## ⭐ 主力软件（五个）
 
 > 📥 **两条路都能下**：各软件自己的 **Releases 页面**（旧版本都在那儿），以及**百度网盘**（密码 `2026`）—— 最新版安装包在里面，**发行版 + 源码开发版二合一**：
-> CathayShelf v0.5.2（网盘链接稍后补） · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026)
+> [CathayShelf v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026)
 
 ### ① 🔍 CathayFinder —— 找书
 
