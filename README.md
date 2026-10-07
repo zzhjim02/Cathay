@@ -34,7 +34,7 @@
 | ① | 想找一本书，不知道去哪儿下 | **🔍 CathayFinder** —— 11 个渠道一起搜 | [📥 Releases](https://github.com/zzhjim02/CathayFinder/releases/latest) |
 | ② | 下下来是压缩包 / 一堆 `.pdg`，打不开 | **🧩 CathayPDG** —— 超星读秀压缩包转 PDF | [📥 Releases](https://github.com/zzhjim02/CathayPDG/releases/latest) · [📦 网盘 v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) |
 | ③ | 翻开是一页页**影印图片**，字选不中、复制不出来 | **🔤 CathayOCR** —— 让电脑看图认字 | [📥 Releases](https://github.com/zzhjim02/CathayOCR/releases/latest) |
-| ④ | 书攒了几百本，文件名乱、摆放乱 | **📚 CathayShelf** —— 批量建档归位、规范命名 | [📥 Releases](https://github.com/zzhjim02/CathayShelf/releases/latest) · 📦 网盘 v0.5.1（链接稍后补） |
+| ④ | 书攒了几百本，文件名乱、摆放乱 | **📚 CathayShelf** —— 批量建档归位、规范命名 | [📥 Releases](https://github.com/zzhjim02/CathayShelf/releases/latest) · 📦 网盘 v0.5.2（链接稍后补） |
 | ⑤ | 书太多了，想一秒搜到某句话 | **🏛️ CathayHub** —— 索引 · 检索 · 阅读 · 摘录 | [📦 仓库页](https://github.com/zzhjim02/CathayHub) |
 
 > 🔧 **专项小工具**（碰上特定问题才用，用得少）
@@ -73,7 +73,7 @@
 ## ⭐ 主力软件（五个）
 
 > 📥 **两条路都能下**：各软件自己的 **Releases 页面**（旧版本都在那儿），以及**百度网盘**（密码 `2026`）—— 最新版安装包在里面，**发行版 + 源码开发版二合一**：
-> CathayShelf v0.5.1（网盘链接稍后补） · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026)
+> CathayShelf v0.5.2（网盘链接稍后补） · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026)
 
 ### ① 🔍 CathayFinder —— 找书
 
@@ -166,6 +166,7 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 - 🧷 **夹名一定合法**：夹名里的 `:` `/` 等 Windows 非法字符自动转全角 —— 以前书名带全角冒号（`西藏通史：元代卷`）会让整批书一个文件夹都建不出来
 - 👤 **著者不怕生僻姓**：少数民族人名（`丹珠昂奔著`）不再因为姓氏不在百家姓表被丢掉；`中国科学院考古研究所编著` 这类单位作者也不会被切成「所编 + 著」
 - 🧭 **每条值查得到来源**：双击看详情，版权页原文与 CathayFinder 书目数据并排，每个字段标出它来自 CIP / 版权页 / 文件名 / 书目库，冲突时黄底提醒
+- 🔄 **改了设置自动重扫**：切换繁简方向 / 模式 / 后缀后列表自动重算，应用前再校验一次，不会拿过期结论执行
 - 🔁 **繁简转换**：港台繁体书统一成简体（编码规范化一起做了）；「强制繁转简」只对 `_…FOCR` 结尾生效，`_…OCR` 与 `_【繁转简】` 一律不动
 - 📦 支持批量，一次处理整个书库
 
