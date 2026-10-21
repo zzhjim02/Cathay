@@ -31,20 +31,20 @@
 
 | 顺序 | 我现在的情况 | 用这个 | 下载 |
 |:--:|---|---|:--:|
-| ① | 想找一本书，不知道去哪儿下 | **🔍 CathayFinder** —— 11 个渠道一起搜 | [📥 Releases](https://github.com/zzhjim02/CathayFinder/releases/latest) |
-| ② | 下下来是压缩包 / 一堆 `.pdg`，打不开 | **🧩 CathayPDG** —— 超星读秀压缩包转 PDF | [📥 Releases](https://github.com/zzhjim02/CathayPDG/releases/latest) · [📦 网盘 v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) |
-| ③ | 翻开是一页页**影印图片**，字选不中、复制不出来 | **🔤 CathayOCR** —— 让电脑看图认字 | [📥 Releases](https://github.com/zzhjim02/CathayOCR/releases/latest) |
-| ④ | 书攒了几百本，文件名乱、摆放乱 | **📚 CathayShelf** —— 批量建档归位、规范命名 | [📥 Releases](https://github.com/zzhjim02/CathayShelf/releases/latest) · [📦 网盘 v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) |
-| ⑤ | 书太多了，想一秒搜到某句话 | **🏛️ CathayHub** —— 索引 · 检索 · 阅读 · 摘录 | [📦 仓库页](https://github.com/zzhjim02/CathayHub) |
+| ① | 想找一本书，不知道去哪儿下 | **[🔍 CathayFinder](https://github.com/zzhjim02/CathayFinder)** —— 11 个渠道一起搜 | [📥 Releases](https://github.com/zzhjim02/CathayFinder/releases/latest) |
+| ② | 下下来是压缩包 / 一堆 `.pdg`，打不开 | **[🧩 CathayPDG](https://github.com/zzhjim02/CathayPDG)** —— 超星读秀压缩包转 PDF | [📥 Releases](https://github.com/zzhjim02/CathayPDG/releases/latest) · [📦 网盘 v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) |
+| ③ | 翻开是一页页**影印图片**，字选不中、复制不出来 | **[🔤 CathayOCR](https://github.com/zzhjim02/CathayOCR)** —— 让电脑看图认字 | [📥 Releases](https://github.com/zzhjim02/CathayOCR/releases/latest) |
+| ④ | 书攒了几百本，文件名乱、摆放乱 | **[📚 CathayShelf](https://github.com/zzhjim02/CathayShelf)** —— 批量建档归位、规范命名 | [📥 Releases](https://github.com/zzhjim02/CathayShelf/releases/latest) · [📦 网盘 v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) |
+| ⑤ | 书太多了，想一秒搜到某句话 | **[🏛️ CathayHub](https://github.com/zzhjim02/CathayHub)** —— 索引 · 检索 · 阅读 · 摘录 | [📦 仓库页](https://github.com/zzhjim02/CathayHub) |
 
 > 🔧 **专项小工具**（碰上特定问题才用，用得少）
 
 | 我现在的情况 | 用这个 | 下载 |
 |---|---|:--:|
-| PDF 打不开、一翻页就崩 | 🩺 CathayRepair —— 先把坏 PDF 救回来 | [📥 Releases](https://github.com/zzhjim02/CathayRepair/releases/latest) |
-| 想把字「印」回 PDF（做成双层） | 📑 CathayRestore —— 图还是原图，底下多一层字 | [📥 Releases](https://github.com/zzhjim02/CathayRestore/releases/latest) |
-| 想把 PDF 里的字**整批导出**成 TXT | 📤 CathayExtract —— 文字层导出文本文件 | [📥 Releases](https://github.com/zzhjim02/CathayExtract/releases/latest) |
-| 一堆 PDF 摆在面前，想知道各自是**横排还是竖排** | 🧭 CathayDir —— 每 10 页抽一页批量判，能存 CSV / 分三个柜 | [📥 Releases](https://github.com/zzhjim02/CathayDir/releases/latest) · [📦 网盘 v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026) |
+| PDF 打不开、一翻页就崩 | [🩺 CathayRepair](https://github.com/zzhjim02/CathayRepair) —— 先把坏 PDF 救回来 | [📥 Releases](https://github.com/zzhjim02/CathayRepair/releases/latest) |
+| 想把字「印」回 PDF（做成双层） | [📑 CathayRestore](https://github.com/zzhjim02/CathayRestore) —— 图还是原图，底下多一层字 | [📥 Releases](https://github.com/zzhjim02/CathayRestore/releases/latest) |
+| 想把 PDF 里的字**整批导出**成 TXT | [📤 CathayExtract](https://github.com/zzhjim02/CathayExtract) —— 文字层导出文本文件 | [📥 Releases](https://github.com/zzhjim02/CathayExtract/releases/latest) |
+| 一堆 PDF 摆在面前，想知道各自是**横排还是竖排** | [🧭 CathayDir](https://github.com/zzhjim02/CathayDir) —— 每 10 页抽一页批量判，能存 CSV / 分三个柜 | [📥 Releases](https://github.com/zzhjim02/CathayDir/releases/latest) · [📦 网盘 v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026) |
 
 ---
 
@@ -53,7 +53,7 @@
 | ① 找书 | ② 转成 PDF | ③ 认字 | ④ 归档 | ⑤ 检索阅读 |
 |:---:|:---:|:---:|:---:|:---:|
 | 🔍 | 🧩 | 🔤 | 📚 | 🏛️ |
-| **CathayFinder** | **CathayPDG** | **CathayOCR** | **CathayShelf** | **CathayHub** |
+| **[CathayFinder](https://github.com/zzhjim02/CathayFinder)** | **[CathayPDG](https://github.com/zzhjim02/CathayPDG)** | **[CathayOCR](https://github.com/zzhjim02/CathayOCR)** | **[CathayShelf](https://github.com/zzhjim02/CathayShelf)** | **[CathayHub](https://github.com/zzhjim02/CathayHub)** |
 | 去哪儿找这本书 | 压缩包变成能翻的 PDF | 影印本认出字，能搜能复制 | 几百本书归位、规范命名 | 搜一句话，直接翻开看 |
 
 ```
@@ -62,10 +62,10 @@
                   ▲                                        │
                   │                                        ▼
               ⓪ 修好                                  阅读 · 摘录
-        （PDF 打不开先用 CathayRepair 救一下）
+        （PDF 打不开先用 [CathayRepair](https://github.com/zzhjim02/CathayRepair) 救一下）
 ```
 
-> ⚠️ **第 ⑤ 步搜的是「字」不是「图」**：没做过第 ③ 步的影印本，在 CathayHub 里**只能按文件名搜到，正文搜不到**。
+> ⚠️ **第 ⑤ 步搜的是「字」不是「图」**：没做过第 ③ 步的影印本，在 [CathayHub](https://github.com/zzhjim02/CathayHub) 里**只能按文件名搜到，正文搜不到**。
 > 中间哪一步没遇上就跳过 —— 书要是已经能复制文字了，直接从 ④ 或 ⑤ 开始。
 
 ---
@@ -75,7 +75,7 @@
 > 📥 **两条路都能下**：各软件自己的 **Releases 页面**（旧版本都在那儿），以及**百度网盘**（密码 `2026`）—— 最新版安装包在里面，**发行版 + 源码开发版二合一**：
 > [CathayShelf v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026)
 
-### ① 🔍 CathayFinder —— 找书
+### [① 🔍 CathayFinder](https://github.com/zzhjim02/CathayFinder) —— 找书
 
 <div align="center">
 
@@ -102,7 +102,7 @@
 
 ---
 
-### ② 🧩 CathayPDG —— 解压转换
+### [② 🧩 CathayPDG](https://github.com/zzhjim02/CathayPDG) —— 解压转换
 
 <div align="center">
 
@@ -121,7 +121,7 @@
 
 ---
 
-### ③ 🔤 CathayOCR —— 认字（OCR）
+### [③ 🔤 CathayOCR](https://github.com/zzhjim02/CathayOCR) —— 认字（OCR）
 
 <div align="center">
 
@@ -133,7 +133,7 @@
 > 它让电脑把图片里的字认出来，之后这本书就**能搜、能复制、能引用**了。
 
 > 🗣️ **说人话**：OCR 就是「让电脑看图认字」。没做这一步的书只是一堆图片，
-> 你在里面搜一个词是搜不到的 —— 后面 CathayHub 的全文检索**全靠这一步**。
+> 你在里面搜一个词是搜不到的 —— 后面 [CathayHub](https://github.com/zzhjim02/CathayHub) 的全文检索**全靠这一步**。
 
 - 📚 **批量处理**：扔进去一整个文件夹，然后去泡茶
 - 🀄 **中文识别优化**：对竖排、繁体、古籍版面有专门处理
@@ -149,7 +149,7 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 
 ---
 
-### ④ 📚 CathayShelf —— 著录整理
+### [④ 📚 CathayShelf](https://github.com/zzhjim02/CathayShelf) —— 著录整理
 
 <div align="center">
 
@@ -165,14 +165,14 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 - 🔢 **编号补名**：只有书库编号的文件（`15458752_OCR.pdf`）可批量补成 `书名_作者名_原名`，著录后弹表勾选、不勾选就不动
 - 🧷 **夹名一定合法**：夹名里的 `:` `/` 等 Windows 非法字符自动转全角 —— 以前书名带全角冒号（`西藏通史：元代卷`）会让整批书一个文件夹都建不出来
 - 👤 **著者不怕生僻姓**：少数民族人名（`丹珠昂奔著`）不再因为姓氏不在百家姓表被丢掉；`中国科学院考古研究所编著` 这类单位作者也不会被切成「所编 + 著」
-- 🧭 **每条值查得到来源**：双击看详情，版权页原文与 CathayFinder 书目数据并排，每个字段标出它来自 CIP / 版权页 / 文件名 / 书目库，冲突时黄底提醒
+- 🧭 **每条值查得到来源**：双击看详情，版权页原文与 [CathayFinder](https://github.com/zzhjim02/CathayFinder) 书目数据并排，每个字段标出它来自 CIP / 版权页 / 文件名 / 书目库，冲突时黄底提醒
 - 🔄 **改了设置自动重扫**：切换繁简方向 / 模式 / 后缀后列表自动重算，应用前再校验一次，不会拿过期结论执行
 - 🔁 **繁简转换**：港台繁体书统一成简体（编码规范化一起做了）；「强制繁转简」只对 `_…FOCR` 结尾生效，`_…OCR` 与 `_【繁转简】` 一律不动
 - 📦 支持批量，一次处理整个书库
 
 ---
 
-### ⑤ 🏛️ CathayHub —— 索引 · 检索 · 阅读 · 摘录
+### [⑤ 🏛️ CathayHub](https://github.com/zzhjim02/CathayHub) —— 索引 · 检索 · 阅读 · 摘录
 
 <div align="center">
 
@@ -190,20 +190,20 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 - ✂️ **摘录**：看到要紧的段落，直接摘出来存好（不用再复制粘贴）
 
 > ⚠️ **用它的前提：书里得有「字」**。它搜的是文字，不是图片。
-> 没经过 CathayOCR 认字的影印本，只能按文件名搜到，**正文里搜不到东西**。
-> 所以顺序是：**先 CathayOCR → 再 CathayHub**。
+> 没经过 [CathayOCR](https://github.com/zzhjim02/CathayOCR) 认字的影印本，只能按文件名搜到，**正文里搜不到东西**。
+> 所以顺序是：**先 [CathayOCR](https://github.com/zzhjim02/CathayOCR) → 再 [CathayHub](https://github.com/zzhjim02/CathayHub)**。
 
 <details>
 <summary>⚠️ 为什么这里没有 exe 下载？</summary>
 
-CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条：
+[CathayHub](https://github.com/zzhjim02/CathayHub) **只公开源代码，不提供编译好的 exe**，原因有两条：
 
 1. 它的全文检索是**调用 FileLocator Pro**（Mythicsoft 的商业软件）做的，对方的许可**不允许随本项目再分发**；
 2. 完整发行包 250 MB 以上，且要按每个人自己的书库位置配置，公开发一个「开箱即用不了」的二进制意义不大。
 
 - **想自己构建**：源码是完整的（GPL-3.0），照仓库里「从源码构建」一节做即可；检索以外的一切功能
   （浏览、阅读、文件名索引、图文对读、摘录本、截图本、学术引用）**都不依赖** FileLocator Pro。
-- **想要现成的可执行版**：在 CathayHub 仓库开一个 Issue 联系作者，会通过网盘单独提供。
+- **想要现成的可执行版**：在 [CathayHub 仓库](https://github.com/zzhjim02/CathayHub) 开一个 Issue 联系作者，会通过网盘单独提供。
 
 </details>
 
@@ -214,7 +214,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 <details>
 <summary><b>展开看四个专项小工具（碰上特定问题才用，用得少）</b></summary>
 
-### 🩺 CathayRepair —— 修复
+### [🩺 CathayRepair](https://github.com/zzhjim02/CathayRepair) —— 修复
 
 > PDF 打不开、一翻页就崩、缺页 —— 先把它抢救回来。
 
@@ -224,7 +224,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 
 [![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayRepair?color=brightgreen)](https://github.com/zzhjim02/CathayRepair/releases/latest)
 
-### 📑 CathayRestore —— 回写双层
+### [📑 CathayRestore](https://github.com/zzhjim02/CathayRestore) —— 回写双层
 
 > 把 OCR 出来的 TXT **写回 PDF**，做成「双层」（看着是原图，底下藏着可选可搜的字）。
 
@@ -234,12 +234,12 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 
 [![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayRestore?color=brightgreen)](https://github.com/zzhjim02/CathayRestore/releases/latest)
 
-### 📤 CathayExtract —— 文字导出
+### [📤 CathayExtract](https://github.com/zzhjim02/CathayExtract) —— 文字导出
 
 > 书里已经有文字层了（OCR 过 / 本身是电子排版的），**把文字整批导出成 TXT** ——
 > 做笔记、做语料、做统计都方便。
 
-> 📌 **它是「导出」，不是「摘录」**：摘录（看到要紧段落随手存下来）是 CathayHub 里的功能；
+> 📌 **它是「导出」，不是「摘录」**：摘录（看到要紧段落随手存下来）是 [CathayHub](https://github.com/zzhjim02/CathayHub) 里的功能；
 > 这个工具干的是**批量把整本书的文字倒出来**。
 
 - **直接取现成的文字层**，不用再跑一遍 OCR（快得多，也更准）
@@ -248,7 +248,7 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 
 [![Releases](https://img.shields.io/github/v/release/zzhjim02/CathayExtract?color=brightgreen)](https://github.com/zzhjim02/CathayExtract/releases/latest)
 
-### 🧭 CathayDir —— 判断横排 / 竖排
+### [🧭 CathayDir](https://github.com/zzhjim02/CathayDir) —— 判断横排 / 竖排
 
 > 一批 PDF 摆在那儿，先问一句：**它们到底是横排还是竖排？**
 > 古籍多竖排、现代书多横排，分流之后再 OCR，效果差很多。
@@ -294,11 +294,11 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 
 | 你的书现在什么样 | 装这个 |
 |---|---|
-| 还没有书，不知道去哪儿找 | ⭐ CathayFinder |
-| 有书，但是压缩包 / `.pdg` 打不开 | ⭐ CathayPDG |
-| 能打开，但翻开是影印图片，**字复制不出来** | ⭐ CathayOCR（**这一步不补上，后面几步都使不上**） |
-| 能复制文字了，书太多要整理归档 | ⭐ CathayShelf |
-| 都整理好了，想一秒搜到某句话 | ⭐ CathayHub |
+| 还没有书，不知道去哪儿找 | ⭐ [CathayFinder](https://github.com/zzhjim02/CathayFinder) |
+| 有书，但是压缩包 / `.pdg` 打不开 | ⭐ [CathayPDG](https://github.com/zzhjim02/CathayPDG) |
+| 能打开，但翻开是影印图片，**字复制不出来** | ⭐ [CathayOCR](https://github.com/zzhjim02/CathayOCR)（**这一步不补上，后面几步都使不上**） |
+| 能复制文字了，书太多要整理归档 | ⭐ [CathayShelf](https://github.com/zzhjim02/CathayShelf) |
+| 都整理好了，想一秒搜到某句话 | ⭐ [CathayHub](https://github.com/zzhjim02/CathayHub) |
 
 </details>
 
@@ -307,9 +307,9 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 
 随便翻开一页，用鼠标**拖一下正文里的字**：
 
-- **能选中、能复制** → 这本书有文字层，**不用 OCR**，直接去 CathayShelf / CathayHub。
-- **选不中，整页就像一张图片** → 没有文字层，**必须先跑 CathayOCR**，
-  否则既搜不到正文，CathayHub 里也搜不出来。
+- **能选中、能复制** → 这本书有文字层，**不用 OCR**，直接去 [CathayShelf](https://github.com/zzhjim02/CathayShelf) / [CathayHub](https://github.com/zzhjim02/CathayHub)。
+- **选不中，整页就像一张图片** → 没有文字层，**必须先跑 [CathayOCR](https://github.com/zzhjim02/CathayOCR)**，
+  否则既搜不到正文，[CathayHub](https://github.com/zzhjim02/CathayHub) 里也搜不出来。
 
 </details>
 
@@ -320,16 +320,16 @@ CathayHub **只公开源代码，不提供编译好的 exe**，原因有两条�
 
 | 情况 | 涉及软件 | 说明 |
 |---|---|---|
-| **Releases 页面直接下 exe** | ⭐ CathayPDG、⭐ CathayShelf、⭐ CathayFinder（仅程序）、CathayRepair、CathayExtract | 几十 MB，点开就能下、**CathayDir** |
-| **Releases 页面里给了网盘地址** | **CathayOCR**（引擎体积大）、**CathayFinder**（27 GB 数据库）、CathayRestore 等 | 超过 GitHub 单文件 2 GB 上限，页面里会写明网盘链接 —— **以那边当时写的为准** |
-| **只有源码，没有编译版** | **CathayHub**（许可原因）、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
+| **Releases 页面直接下 exe** | ⭐ [CathayPDG](https://github.com/zzhjim02/CathayPDG)、⭐ [CathayShelf](https://github.com/zzhjim02/CathayShelf)、⭐ [CathayFinder](https://github.com/zzhjim02/CathayFinder)（仅程序）、[CathayRepair](https://github.com/zzhjim02/CathayRepair)、[CathayExtract](https://github.com/zzhjim02/CathayExtract)、[CathayDir](https://github.com/zzhjim02/CathayDir) | 几十 MB，点开就能下 |
+| **Releases 页面里给了网盘地址** | **[CathayOCR](https://github.com/zzhjim02/CathayOCR)**（引擎体积大）、**[CathayFinder](https://github.com/zzhjim02/CathayFinder)**（27 GB 数据库）、[CathayRestore](https://github.com/zzhjim02/CathayRestore) 等 | 超过 GitHub 单文件 2 GB 上限，页面里会写明网盘链接 —— **以那边当时写的为准** |
+| **只有源码，没有编译版** | **[CathayHub](https://github.com/zzhjim02/CathayHub)**（许可原因）、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
 
 </details>
 
 <details>
 <summary><b>要装 Python 吗？会不会联网？会不会动我的原文件？</b></summary>
 
-- **要装 Python 吗？** 不用。绝大多数都是打包好的 exe，双击就跑（CathayPDG 连 7-Zip 都内置了）。
+- **要装 Python 吗？** 不用。绝大多数都是打包好的 exe，双击就跑（[CathayPDG](https://github.com/zzhjim02/CathayPDG) 连 7-Zip 都内置了）。
 - **要联网吗？** 不用，全部纯本地运行，断网也能用。
 - **会动我的原文件吗？** 不会。整套工具都不改原件，处理结果另存。
 - **这么多软件必须全装吗？** 完全不用。**哪一步卡住了就只装那一个**，它们互不依赖。
