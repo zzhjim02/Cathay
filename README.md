@@ -33,7 +33,7 @@
 |:--:|---|---|:--:|
 | ① | 想找一本书，不知道去哪儿下 | **[🔍 CathayFinder](https://github.com/zzhjim02/CathayFinder)** —— 11 个渠道一起搜 | [📥 Releases](https://github.com/zzhjim02/CathayFinder/releases/latest) |
 | ② | 下下来是压缩包 / 一堆 `.pdg`，打不开 | **[🧩 CathayPDG](https://github.com/zzhjim02/CathayPDG)** —— 超星读秀压缩包转 PDF | [📥 Releases](https://github.com/zzhjim02/CathayPDG/releases/latest) · [📦 网盘 v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) |
-| ③ | 翻开是一页页**影印图片**，字选不中、复制不出来 | **[🔤 CathayOCR](https://github.com/zzhjim02/CathayOCR)** —— 让电脑看图认字 | [📥 Releases](https://github.com/zzhjim02/CathayOCR/releases/latest) |
+| ③ | 翻开是一页页**影印图片**，字选不中、复制不出来 | **[🔤 CathayOCR](https://github.com/zzhjim02/CathayOCR)** —— 让电脑看图认字 | [📥 Releases](https://github.com/zzhjim02/CathayOCR/releases/latest) · [📦 网盘 v1.3.5（Lite+Pro）](https://pan.baidu.com/s/11fTzJ5dDr35ZtarMWOOU0Q?pwd=2026) |
 | ④ | 书攒了几百本，文件名乱、摆放乱 | **[📚 CathayShelf](https://github.com/zzhjim02/CathayShelf)** —— 批量建档归位、规范命名 | [📥 Releases](https://github.com/zzhjim02/CathayShelf/releases/latest) · [📦 网盘 v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) |
 | ⑤ | 书太多了，想一秒搜到某句话 | **[🏛️ CathayHub](https://github.com/zzhjim02/CathayHub)** —— 索引 · 检索 · 阅读 · 摘录 | [📦 仓库页](https://github.com/zzhjim02/CathayHub) |
 
@@ -41,9 +41,9 @@
 
 | 我现在的情况 | 用这个 | 下载 |
 |---|---|:--:|
-| PDF 打不开、一翻页就崩 | [🩺 CathayRepair](https://github.com/zzhjim02/CathayRepair) —— 先把坏 PDF 救回来 | [📥 Releases](https://github.com/zzhjim02/CathayRepair/releases/latest) |
-| 想把字「印」回 PDF（做成双层） | [📑 CathayRestore](https://github.com/zzhjim02/CathayRestore) —— 图还是原图，底下多一层字 | [📥 Releases](https://github.com/zzhjim02/CathayRestore/releases/latest) |
-| 想把 PDF 里的字**整批导出**成 TXT | [📤 CathayExtract](https://github.com/zzhjim02/CathayExtract) —— 文字层导出文本文件 | [📥 Releases](https://github.com/zzhjim02/CathayExtract/releases/latest) |
+| PDF 打不开、一翻页就崩 | [🩺 CathayRepair](https://github.com/zzhjim02/CathayRepair) —— 先把坏 PDF 救回来 | [📥 Releases](https://github.com/zzhjim02/CathayRepair/releases/latest) · [📦 网盘 v1.0.0](https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026) |
+| 想把字「印」回 PDF（做成双层） | [📑 CathayRestore](https://github.com/zzhjim02/CathayRestore) —— 图还是原图，底下多一层字 | [📥 Releases](https://github.com/zzhjim02/CathayRestore/releases/latest) · [📦 网盘 v1.0.0](https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026) |
+| 想把 PDF 里的字**整批导出**成 TXT | [📤 CathayExtract](https://github.com/zzhjim02/CathayExtract) —— 文字层导出文本文件 | [📥 Releases](https://github.com/zzhjim02/CathayExtract/releases/latest) · [📦 网盘 v1.2.3](https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026) |
 | 一堆 PDF 摆在面前，想知道各自是**横排还是竖排** | [🧭 CathayDir](https://github.com/zzhjim02/CathayDir) —— 每 10 页抽一页批量判，能存 CSV / 分三个柜 | [📥 Releases](https://github.com/zzhjim02/CathayDir/releases/latest) · [📦 网盘 v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026) |
 
 ---
@@ -73,7 +73,8 @@
 ## ⭐ 主力软件（五个）
 
 > 📥 **两条路都能下**：各软件自己的 **Releases 页面**（旧版本都在那儿），以及**百度网盘**（密码 `2026`）—— 最新版安装包在里面，**程序 + 数据库 + 源码打包在一起**：
-> [CathayShelf v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026) · [CathayFinder v1.2.2](https://pan.baidu.com/s/1X52nnMLemhZ93S3m2AT9nA?pwd=2026)
+> [CathayShelf v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026) · [CathayFinder v1.2.2](https://pan.baidu.com/s/1X52nnMLemhZ93S3m2AT9nA?pwd=2026) ·
+> [CathayOCR v1.3.5（Lite+Pro）](https://pan.baidu.com/s/11fTzJ5dDr35ZtarMWOOU0Q?pwd=2026) · [CathayRepair v1.0.0](https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026) · [CathayRestore v1.0.0](https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026) · [CathayExtract v1.2.3](https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026)
 
 ### [① 🔍 CathayFinder](https://github.com/zzhjim02/CathayFinder) —— 找书
 
