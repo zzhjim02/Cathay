@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "updated": "2026-10-21",
+  "note": "CathayHome 等启动器据此判断本地软件是否需要更新。enabled=false 表示关闭该软件的更新检测（用户端不提示）。",
+  "apps": {
+    "finder": {
+      "latest": "1.2.2",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayFinder/releases/latest"
+    },
+    "pdg": {
+      "latest": "0.2.0",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayPDG/releases/latest"
+    },
+    "ocr": {
+      "latest": "1.3.5",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayOCR/releases/latest"
+    },
+    "shelf": {
+      "latest": "0.5.2",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayShelf/releases/latest"
+    },
+    "hub": {
+      "latest": "0.5.17",
+      "enabled": false,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayHub"
+    },
+    "repair": {
+      "latest": "1.0.0",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayRepair/releases/latest"
+    },
+    "restore": {
+      "latest": "1.0.0",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayRestore/releases/latest"
+    },
+    "extract": {
+      "latest": "1.2.3",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayExtract/releases/latest"
+    },
+    "dir": {
+      "latest": "0.1.1",
+      "enabled": true,
+      "update_type": "feature",
+      "skip_harm": "",
+      "releases_url": "https://github.com/zzhjim02/CathayDir/releases/latest"
+    }
+  }
+}
