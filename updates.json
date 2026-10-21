@@ -22,7 +22,8 @@
       "enabled": true,
       "update_type": "feature",
       "skip_harm": "",
-      "releases_url": "https://github.com/zzhjim02/CathayOCR/releases/latest"
+      "releases_url": "https://github.com/zzhjim02/CathayOCR/releases/latest",
+      "download_url": "https://pan.baidu.com/s/11fTzJ5dDr35ZtarMWOOU0Q?pwd=2026"
     },
     "shelf": {
       "latest": "0.5.2",
@@ -43,21 +44,24 @@
       "enabled": true,
       "update_type": "feature",
       "skip_harm": "",
-      "releases_url": "https://github.com/zzhjim02/CathayRepair/releases/latest"
+      "releases_url": "https://github.com/zzhjim02/CathayRepair/releases/latest",
+      "download_url": "https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026"
     },
     "restore": {
       "latest": "1.0.0",
       "enabled": true,
       "update_type": "feature",
       "skip_harm": "",
-      "releases_url": "https://github.com/zzhjim02/CathayRestore/releases/latest"
+      "releases_url": "https://github.com/zzhjim02/CathayRestore/releases/latest",
+      "download_url": "https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026"
     },
     "extract": {
       "latest": "1.2.3",
       "enabled": true,
       "update_type": "feature",
       "skip_harm": "",
-      "releases_url": "https://github.com/zzhjim02/CathayExtract/releases/latest"
+      "releases_url": "https://github.com/zzhjim02/CathayExtract/releases/latest",
+      "download_url": "https://pan.baidu.com/s/18lzLknW_NIwzvGSM8iN8NQ?pwd=2026"
     },
     "dir": {
       "latest": "0.1.1",
