@@ -73,7 +73,7 @@
 ## ⭐ 主力软件（五个）
 
 > 📥 **两条路都能下**：各软件自己的 **Releases 页面**（旧版本都在那儿），以及**百度网盘**（密码 `2026`）—— 最新版安装包在里面，**程序 + 数据库 + 源码打包在一起**：
-> [CathayShelf v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026)
+> [CathayShelf v0.5.2](https://pan.baidu.com/s/1JvtAnHf9hMOrXHxhlXYhiw?pwd=2026) · [CathayPDG v0.2.0](https://pan.baidu.com/s/1Il3JusvDwgK-4zpT_zyt6g?pwd=2026) · [CathayDir v0.1.1](https://pan.baidu.com/s/1aU40yVsfcuvBp95bjqbDIg?pwd=2026) · [CathayFinder v1.2.2](https://pan.baidu.com/s/1X52nnMLemhZ93S3m2AT9nA?pwd=2026)
 
 ### [① 🔍 CathayFinder](https://github.com/zzhjim02/CathayFinder) —— 找书
 
@@ -95,13 +95,18 @@
 - 📤 **导出能挑字段**：11 个字段想导哪几个勾哪几个，自动去重、按拼音排序
 - 📁 **自己电脑的文件夹也能搜**：软件里就有「本地文件库索引」页签
 
-> 📦 分**标准版**（含本地文件库）和**公开版**（不含本地文件库）两个包，**用的是同一个 exe，功能完全一样**。
+> 📦 网盘里有 **①公开版（主程序 + 开发套件 + 数据包）** 和 **②主程序两个包（不含数据）**。
+> 两个包用的是**同一个 exe，功能完全一样**。**第一次用**选 ①；**已经在用旧版、
+> 只想从 1.1.0 升到 1.2.2** 就下 ② —— 包里没有 `data\`，把新 exe 覆盖旧的即可，数据不用动。
+>
+> ⚠️ **以前单独发的「开发版」已取消**：公开版本身就具有开发版的全部功能，因此不再保留开发版。
 
 <details>
-<summary>⚠️ 装之前必读：数据库 27 GB</summary>
+<summary>⚠️ 装之前必读：数据库约 6 GB 起</summary>
 
-程序本身只有 43 MB，但 11 个渠道的数据库**约 27 GB**，GitHub 单文件上限 2 GB 放不下 →
-**数据库走网盘**（Releases 页面里会写明）。程序和数据要放在**同一层**，分开就搜不到东西。
+程序本身只有 43 MB，但 11 个渠道的数据库**约 6 GB 起**（取决于你放了几个渠道的库），
+GitHub 单文件上限 2 GB 放不下 → **数据库走网盘**（Releases 页面里会写明）。
+程序和数据要放在**同一层**，分开就搜不到东西。
 
 </details>
 
@@ -326,7 +331,7 @@ OCR 引擎本身就很大，个别版本 GitHub 放不下 —— Releases 页面
 | 情况 | 涉及软件 | 说明 |
 |---|---|---|
 | **Releases 页面直接下 exe** | ⭐ [CathayPDG](https://github.com/zzhjim02/CathayPDG)、⭐ [CathayShelf](https://github.com/zzhjim02/CathayShelf)、⭐ [CathayFinder](https://github.com/zzhjim02/CathayFinder)（仅程序）、[CathayRepair](https://github.com/zzhjim02/CathayRepair)、[CathayExtract](https://github.com/zzhjim02/CathayExtract)、[CathayDir](https://github.com/zzhjim02/CathayDir) | 几十 MB，点开就能下 |
-| **Releases 页面里给了网盘地址** | **[CathayOCR](https://github.com/zzhjim02/CathayOCR)**（引擎体积大）、**[CathayFinder](https://github.com/zzhjim02/CathayFinder)**（27 GB 数据库）、[CathayRestore](https://github.com/zzhjim02/CathayRestore) 等 | 超过 GitHub 单文件 2 GB 上限，页面里会写明网盘链接 —— **以那边当时写的为准** |
+| **Releases 页面里给了网盘地址** | **[CathayOCR](https://github.com/zzhjim02/CathayOCR)**（引擎体积大）、**[CathayFinder](https://github.com/zzhjim02/CathayFinder)**（约 6 GB 起数据库）、[CathayRestore](https://github.com/zzhjim02/CathayRestore) 等 | 超过 GitHub 单文件 2 GB 上限，页面里会写明网盘链接 —— **以那边当时写的为准** |
 | **只有源码，没有编译版** | **[CathayHub](https://github.com/zzhjim02/CathayHub)**（许可原因）、两个 PDF-OCR-Exporter（已停更） | 见上文各节的说明 |
 
 </details>
