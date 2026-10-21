@@ -1,7 +1,21 @@
 {
-  "schema": 1,
+  "schema": 2,
   "updated": "2026-10-21",
-  "note": "CathayHome 等启动器据此判断本地软件是否需要更新。enabled=false 表示关闭该软件的更新检测（用户端不提示）。",
+  "note": "CathayHome 等启动器据此判断本地软件是否需要更新。本文件只放数据，不放界面文案；GitHub README 不引用本文件里的任何网盘链接。",
+  "_字段说明": {
+    "schema": "清单结构版本号。当前为 2。若以后字段含义大改，就升一位，老版本启动器读不懂时可安全忽略。",
+    "updated": "本清单最后一次人工更新的日期（YYYY-MM-DD），仅供维护者参考，程序不读。",
+    "note": "给维护者看的一句话说明，程序不读。",
+    "shared_download": "【所有软件共用的百度网盘链接】不是某个软件专属。启动器检测到它后，会弹窗询问用户『是否直接打开网盘下载』；同意就跳转这个链接，不同意就走各软件自己的下载路径。留空字符串表示暂不提供，启动器就不弹窗。此链接刻意不出现在 GitHub README 里。",
+    "apps": "各软件的更新信息，键名是软件代号。CathayOCR 的 Lite / Pro 两个版本共用键名 ocr。",
+    "apps.<代号>.latest": "当前稳定版本号（如 1.3.5）。仅作兜底：启动器优先用 GitCode/Gitee/GitHub 实时取到的最新 tag，取不到时才用这里写的值。",
+    "apps.<代号>.enabled": "是否开启该软件的更新检测。false = 关闭（启动器不提示该软件更新，内部测试期用，如 hub）。",
+    "apps.<代号>.update_type": "更新类型。feature = 功能更新（用户可在启动时跳过，下次有更新会再次提醒）；urgent = 紧急更新（可跳过，但必须配合 skip_harm 写明跳过的危害）。",
+    "apps.<代号>.skip_harm": "紧急更新专用：跳过本次更新会有什么危害，一句话。feature 类型留空即可。",
+    "apps.<代号>.releases_url": "该软件发行版页面（一般是 GitHub Releases）。用户点『去更新』时的兜底跳转地址。",
+    "apps.<代号>.download_url": "【可选】该软件专属的网盘直链（百度网盘 / 中国移动云盘等）。填了的话，用户点『去更新』就直接跳网盘，不再经过 GitHub Releases 页面。不填可省略此字段。"
+  },
+  "shared_download": "https://pan.baidu.com/s/19LKedIgdrYMDmF3EACLZ3A?pwd=2026",
   "apps": {
     "finder": {
       "latest": "1.2.2",
